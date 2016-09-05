@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><!--直播页面中ListView的头部-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.lanouhn.zhibo.view.ZhiboCircleView
+        android:id="@+id/zhibo_head_circle"
+        android:layout_width="match_parent"
+        android:layout_height="135dp">
+
+    </com.example.lanouhn.zhibo.view.ZhiboCircleView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/zhibo_head_recycle"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/backaround_gray" />
+
+</LinearLayout>

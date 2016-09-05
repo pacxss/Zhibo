@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?><!--随拍页面RecyclerView的item-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/suipai_item_iv_backaround"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/suipai_item_tv_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="@string/suipai_tv_total"
+            android:textColor="@color/text_gray"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/suipai_item_iv_people"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="3dp"
+            android:layout_toLeftOf="@id/suipai_item_tv_total"
+            android:src="@mipmap/man_gray" />
+
+        <TextView
+            android:id="@+id/suipai_item_tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/suipai_item_iv_people"
+            android:ellipsize="end"
+            android:enabled="true"
+            android:maxLines="1"
+            android:text="@string/suipai_tv_title"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="backaround_yellow">#FFFF7F00</color>
+    <color name="backaround_gray">#FFEEEEEE</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF252525</color>
+    <color name="text_gray">#FF8F8989</color>
+    <color name="touming_dark">#99000000</color>
+    <color name="touming_light">#66000000</color>
+    <color name="book">#FF0080FF</color>
+    <color name="dark_blue">#FF1D2D3D</color>
+    <color name="green">#FF019858</color>
+    <color name="book_blue">#b330cbe2</color>
+    <color name="touming_white">#DDFFFFFF</color>
+    <color name="red">#FFFF0000</color>
+    <color name="touming">#00FFFFFF</color>
+    <color name="gray">#99FFFFFF</color>
+
+    <color name="color_1">#FFFFD700</color>
+    <color name="color_2">#FFC7C7C7</color>
+    <color name="color_3">#FFEE9572</color>
+    <color name="color_4">#FFEEE5DE</color>
+    <color name="color_5">#FFD1EEEE</color>
+    <color name="wai">#FF8B0000</color>
+</resources>

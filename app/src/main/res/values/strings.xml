@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Zhibo</string>
+
+    <!--主页面-->
+    <string name="main_tv_title">标题</string>
+    <string name="main_rb_zhibo">直播</string>
+    <string name="main_rb_game">游戏</string>
+    <string name="main_rb_suipai">随拍</string>
+    <string name="main_rb_ent">娱乐</string>
+    <string name="main_out">再按一次退出「直播」</string>
+
+    <!--直播页面-->
+    <string name="zhibo_tv_ing">正在直播</string>
+    <string name="zhibo_tv_total">8888</string>
+    <string name="zhibo_tv_zhibo">场直播</string>
+    <string name="zhibo_tv_name">直播房间</string>
+    <string name="zhibo_tv_des">房间描述</string>
+
+    <!--随拍页面-->
+    <string name="suipai_tv_title">房间标题</string>
+    <string name="suipai_tv_total">8888</string>
+
+    <!--刷新页面-->
+    <string name="toast">抱歉，请稍后再试！</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">释放立即更新</string>
+    <string name="xlistview_header_hint_loading">正在刷新...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+
+    <!--视频播放页面-->
+    <string name="play_tv_book">订阅</string>
+    <string name="play_tv_title">房间标题</string>
+    <string name="play_tv_total">8888</string>
+    <string name="play_tv_booked">已订阅</string>
+    <string name="play_tv_toasted">成功订阅该房间！</string>
+    <string name="play_tv_toast">成功退订该房间！</string>
+
+    <string name="match_tv_kind">高清</string>
+    <string name="match_tv_book">订阅</string>
+    <string name="match_tv_hot">热词</string>
+    <string name="match_et_what">要跟主播说点什么？</string>
+    <string name="match_et_send">发送</string>
+
+    <string name="live_tv_ing">观看中</string>
+    <string name="live_tv_book">订阅</string>
+    <string name="live_tv_line">主线</string>
+    <string name="live_tv_bookTa">订阅TA</string>
+    <string name="live_tv_jubao">举报</string>
+    <string name="live_tv_time">00:00:00</string>
+    <string name="live_tv_logo">手机型号</string>
+    <string name="live_tv_rank">贡献排行榜</string>
+    <string name="live_tv_name">虚以待位</string>
+    <string name="live_tv_booked">已订阅</string>
+    
+    <!--全部赛事页面-->
+    <string name="match_tv_ing">进行中</string>
+    <string name="match_tv_title">全部赛事</string>
+    <string name="match_tv_update">更新 : </string>
+
+    <!--个人中心页面-->
+    <string name="person_tv_title">个人中心</string>
+    <string name="person_tv_login">点击登录</string>
+    <string name="person_tv_notice">登录可以收到订阅更新通知哦</string>
+    <string name="person_tv_msg">我的消息</string>
+    <string name="person_tv_book">我的订阅</string>
+    <string name="person_tv_one">我的动态</string>
+    <string name="person_tv_two">视频动态</string>
+    <string name="person_tv_three">充值元宝</string>
+    <string name="person_tv_four">消费明细</string>
+    <string name="person_tv_five">充值明细</string>
+    <string name="person_tv_out">退出账号</string>
+
+    <!--赛事回顾页面-->
+    <string name="ago_tv_title">赛事回顾</string>
+    <string name="ago_tv_ing">正在直播</string>
+    <string name="ago_tv_left">【正在直播】</string>
+
+    <string name="rc_send">发送</string>
+</resources>

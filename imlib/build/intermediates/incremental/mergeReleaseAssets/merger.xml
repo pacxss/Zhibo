@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/elliott/Downloads/Zhibo/imlib/src/main/assets"/><source path="/Users/elliott/Downloads/Zhibo/imlib/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/Users/elliott/Downloads/Zhibo/imlib/src/release/assets"/></dataSet></merger>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?><!--直播页面中GridView的item-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/zhibo_gv_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.joooonho.SelectableRoundedImageView
+            android:id="@+id/zhibo_gv_iv_backaround"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            app:sriv_left_bottom_corner_radius="2dp"
+            app:sriv_left_top_corner_radius="2dp"
+            app:sriv_right_bottom_corner_radius="2dp"
+            app:sriv_right_top_corner_radius="2dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/zhibo_gv_iv_backaround"
+            android:layout_alignRight="@id/zhibo_gv_iv_backaround"
+            android:background="@color/touming_dark">
+
+            <TextView
+                android:id="@+id/zhibo_gv_tv_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:paddingBottom="3dp"
+                android:paddingRight="5dp"
+                android:text="@string/zhibo_tv_total"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:id="@+id/zhibo_gv_iv_people"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_alignTop="@id/zhibo_gv_tv_total"
+                android:layout_toLeftOf="@id/zhibo_gv_tv_total"
+                android:paddingRight="5dp"
+                android:src="@mipmap/man" />
+
+            <TextView
+                android:id="@+id/zhibo_gv_tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/zhibo_gv_iv_people"
+                android:layout_alignTop="@id/zhibo_gv_tv_total"
+                android:layout_marginRight="15dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingBottom="3dp"
+                android:paddingLeft="5dp"
+                android:text="@string/zhibo_tv_name"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/zhibo_gv_tv_des"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/zhibo_gv_rl"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/zhibo_tv_des"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+</RelativeLayout>

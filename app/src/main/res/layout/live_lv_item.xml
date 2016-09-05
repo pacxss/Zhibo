@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><!--主播页面中贡献榜的listView的item-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/live_item_iv"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:background="@mipmap/yuan"
+        android:gravity="center" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/live_item_iv_heads"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/live_item_iv"
+        android:src="@mipmap/img_user_icon80" />
+
+    <TextView
+        android:id="@+id/live_item_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/live_item_iv_heads"
+        android:gravity="center"
+        android:text="@string/live_tv_name"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+</RelativeLayout>
